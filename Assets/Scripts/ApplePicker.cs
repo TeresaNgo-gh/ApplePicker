@@ -17,4 +17,11 @@ public class ApplePicker : MonoBehaviour {
            tBasketGO.transform.position = pos;
        }
    }
+
+   public void AppleDestroyed(){
+       GameObject[] tAppleArray=GameObject.FindGameObjectsWithTag("Apple");
+       foreach (GameObject tGo in tAppleArray){
+           Destroy (tGo);
+       }
+   }
 }
