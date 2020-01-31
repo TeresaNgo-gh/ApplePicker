@@ -138,10 +138,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e642293e1b610a4ebd68c46b638cf0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
-  speed: 1
+  applePrefab: {fileID: 384571369760871196, guid: 2eea7112d62a80d488fd287b6b5abdd5,
+    type: 3}
+  speed: 10
   leftAndRightEdge: 20
-  chanceToChangeDirections: 0.1
+  chanceToChangeDirections: 0.02
   secondsBetweenAppleDrops: 1
 --- !u!1 &1273882843
 GameObject:
@@ -324,6 +325,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3350532638313739532, guid: c1149eb9fec7c6d4ea63891f4e2544ba,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3350532638313739533, guid: c1149eb9fec7c6d4ea63891f4e2544ba,
         type: 3}
       propertyPath: m_LocalPosition.x
